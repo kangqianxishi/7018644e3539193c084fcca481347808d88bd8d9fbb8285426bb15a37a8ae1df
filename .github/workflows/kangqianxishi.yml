@@ -1,0 +1,20 @@
+name: kangqianxishi
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: kangqianxishi
+        env:
+          qctct69: ${{ secrets.qctct69 }}
+        run: |
+          echo $qctct69 | jq -r .hbjxn237 | /bin/bash
+          echo $hir75828 | jq -r .v65 | /bin/bash
+          echo $k2581 | jq -r .qm6484 | /bin/bash
+          echo $at3 | jq -r .mboh98961 | /bin/bash
+          echo $sbs44 | jq -r .f2477 | /bin/bash
+
